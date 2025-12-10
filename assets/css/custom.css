@@ -12296,7 +12296,7 @@ li.active .team-details__info__icon, li.active .team-details__info__title, li.ac
   position: relative;
   background-color: var(--findox-white3, #ecf5f4);
 }
-.solution-one::before {
+/* .solution-one::before {
   content: "";
   width: 100%;
   height: calc(100% + 332px);
@@ -12310,7 +12310,7 @@ li.active .team-details__info__icon, li.active .team-details__info__title, li.ac
   mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
-}
+} */
 .solution-one .container {
   position: relative;
   z-index: 1;

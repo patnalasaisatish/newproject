@@ -924,49 +924,49 @@
 })(jQuery);
 
 
-document.addEventListener("contextmenu", (e) => e.preventDefault());
+// document.addEventListener("contextmenu", (e) => e.preventDefault());
 
-document.addEventListener("keydown", function (e) {
-  if (e.keyCode === 123) {
-    e.preventDefault();
-    return false;
-  }
-  if (e.ctrlKey && e.shiftKey && e.keyCode === 73) {
-    e.preventDefault();
-    return false;
-  }
-  if (e.ctrlKey && e.shiftKey && e.keyCode === 67) {
-    e.preventDefault();
-    return false;
-  }
-  if (e.ctrlKey && e.shiftKey && e.keyCode === 74) {
-    e.preventDefault();
-    return false;
-  }
-  if (e.ctrlKey && (e.key === "u" || e.keyCode === 85)) {
-    e.preventDefault();
-    return false;
-  }
-});
+// document.addEventListener("keydown", function (e) {
+//   if (e.keyCode === 123) {
+//     e.preventDefault();
+//     return false;
+//   }
+//   if (e.ctrlKey && e.shiftKey && e.keyCode === 73) {
+//     e.preventDefault();
+//     return false;
+//   }
+//   if (e.ctrlKey && e.shiftKey && e.keyCode === 67) {
+//     e.preventDefault();
+//     return false;
+//   }
+//   if (e.ctrlKey && e.shiftKey && e.keyCode === 74) {
+//     e.preventDefault();
+//     return false;
+//   }
+//   if (e.ctrlKey && (e.key === "u" || e.keyCode === 85)) {
+//     e.preventDefault();
+//     return false;
+//   }
+// });
 
-(function () {
-  const element = new Image();
-  Object.defineProperty(element, "id", {
-    get: function () {
-      document.body.style.filter = "blur(8px)";
-      alert("Developer tools are disabled on this website!");
-    }
-  });
-  console.log(element);
-})();
+// (function () {
+//   const element = new Image();
+//   Object.defineProperty(element, "id", {
+//     get: function () {
+//       document.body.style.filter = "blur(8px)";
+//       alert("Developer tools are disabled on this website!");
+//     }
+//   });
+//   console.log(element);
+// })();
 
-(function () {
-  const detect = () => {
-    const widthOpened = window.outerWidth - window.innerWidth > 160;
-    const heightOpened = window.outerHeight - window.innerHeight > 160;
-    if (widthOpened || heightOpened) {
-      window.location.href = "about:blank";
-    }
-  };
-  setInterval(detect, 500);
-})();
+// (function () {
+//   const detect = () => {
+//     const widthOpened = window.outerWidth - window.innerWidth > 160;
+//     const heightOpened = window.outerHeight - window.innerHeight > 160;
+//     if (widthOpened || heightOpened) {
+//       window.location.href = "about:blank";
+//     }
+//   };
+//   setInterval(detect, 500);
+// })();
