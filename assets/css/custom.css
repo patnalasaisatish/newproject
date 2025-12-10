@@ -12303,7 +12303,7 @@ li.active .team-details__info__icon, li.active .team-details__info__title, li.ac
   position: absolute;
   left: 0px;
   bottom: 0px;
-  background-color: var(--findox-white3, #ecf5f4);
+  /* background-color: var(--findox-white3, #ecf5f4); */
   -webkit-mask: url("../images/shapes/solution-bg-sgape-1-1.png");
   mask: url("../images/shapes/solution-bg-sgape-1-1.png");
   -webkit-mask-repeat: no-repeat;
