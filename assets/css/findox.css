@@ -9928,7 +9928,7 @@ li.active .team-details__info__icon, li.active .team-details__info__title, li.ac
   }
 }
 .about-three__text {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 .about-three__item {
   display: flex;
@@ -9936,7 +9936,7 @@ li.active .team-details__info__icon, li.active .team-details__info__title, li.ac
   gap: 35px;
   position: relative;
   z-index: 1;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   padding: 14px 0px 14px 15px;
   border-top: 1px solid var(--findox-border-color, #dddddd);
   border-bottom: 1px solid var(--findox-border-color, #dddddd);
@@ -11440,7 +11440,7 @@ li.active .team-details__info__icon, li.active .team-details__info__title, li.ac
   position: relative;
   z-index: 1;
   margin: 0px;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
   line-height: 1.5;
   text-transform: capitalize;
